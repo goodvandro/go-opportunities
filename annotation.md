@@ -1,0 +1,1 @@
+*bool -> Defini uma variável do tipo booleana, em que seja obrigatório definir um valor inicial.

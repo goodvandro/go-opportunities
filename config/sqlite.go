@@ -29,13 +29,13 @@ func InitializeSQLite() (*gorm.DB, error) {
 	//Create DB and connect
 	db, err := gorm.Open(sqlite.Open(dbPath), &gorm.Config{})
 	if err != nil {
-		logger.Errof("aqlite opening error: %v", err)
+		logger.Errorf("aqlite opening error: %v", err)
 		return nil, err
 	}
 	// migrate the Schema
 	err = db.AutoMigrate(&schemas.Openings{})
 	if err != nil {
-		logger.Errof("aqlite automigration error: %v", err)
+		logger.Errorf("aqlite automigration error: %v", err)
 		return nil, err
 	}
 	// Return the DB

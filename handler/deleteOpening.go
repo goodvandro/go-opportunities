@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"goodvandro/go-opportunities.git/schemas"
+	"goodvandro/go-opportunities/schemas"
 
 	"github.com/gin-gonic/gin"
 )

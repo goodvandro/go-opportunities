@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"goodvandro/go-opportunities/config"
+	"github.com/goodvandro/go-opportunities/config"
 
 	"gorm.io/gorm"
 )

@@ -1,13 +1,13 @@
 package router
 
 import (
-	"goodvandro/go-opportunities.git/docs"
-	"goodvandro/go-opportunities.git/handler"
-
-	"github.com/gin-gonic/gin"
-
+	docs "github.com/goodvandro/go-opportunities/docs"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
+
+	"github.com/goodvandro/go-opportunities/handler"
+
+	"github.com/gin-gonic/gin"
 )
 
 func initializeRoutes(router *gin.Engine) {

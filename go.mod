@@ -1,4 +1,4 @@
-module goodvandro/go-opportunities
+module github.com/goodvandro/go-opportunities
 
 go 1.21.4
 

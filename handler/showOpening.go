@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"goodvandro/go-opportunities/schemas"
+	"github.com/goodvandro/go-opportunities/schemas"
 
 	"github.com/gin-gonic/gin"
 )

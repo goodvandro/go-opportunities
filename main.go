@@ -1,8 +1,8 @@
 package main
 
 import (
-	"goodvandro/go-opportunities/config"
-	"goodvandro/go-opportunities/router"
+	"github.com/goodvandro/go-opportunities/config"
+	"github.com/goodvandro/go-opportunities/router"
 )
 
 var (

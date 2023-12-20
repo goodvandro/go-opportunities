@@ -1,8 +1,9 @@
 package config
 
 import (
-	"goodvandro/go-opportunities/schemas"
 	"os"
+
+	"github.com/goodvandro/go-opportunities/schemas"
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
